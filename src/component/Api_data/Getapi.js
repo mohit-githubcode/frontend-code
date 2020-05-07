@@ -9,7 +9,7 @@ class GetapiComponent extends React.Component{
         this.state={gets : []}
     }
    
-
+// <<<
     componentDidMount(){
         axios.get('https://jsonplaceholder.typicode.com/posts')
         .then( response =>{
