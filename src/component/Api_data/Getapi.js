@@ -10,6 +10,7 @@ class GetapiComponent extends React.Component{
     }
    
 // <<<
+// my code
     componentDidMount(){
         axios.get('https://jsonplaceholder.typicode.com/posts')
         .then( response =>{
