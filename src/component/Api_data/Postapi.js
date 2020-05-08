@@ -9,7 +9,7 @@ class PostapiComponent extends React.Component{
 
         this.state = { name: '',salary:'',age:'' };
        
-
+// xxxx
     }
 
 
